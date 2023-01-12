@@ -1,1 +1,13 @@
+server:
+  port: 8084
+  servlet:
+    context-path: /api/v1/
 
+spring:
+  datasource:
+    url:  jdbc:mysql://localhost:3306/podcast-library
+    username: root
+    password: n0p0d
+  jpa:
+    hibernate:
+      ddl-auto: create
